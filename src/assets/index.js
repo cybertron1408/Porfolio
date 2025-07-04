@@ -36,9 +36,11 @@ import dronahq from "./company/dronahq.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import githubimg from "./gitimg.png";
 
 export {
   logo,
+  githubimg,
   backend,
   creator,
   mobile,

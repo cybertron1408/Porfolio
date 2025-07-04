@@ -28,6 +28,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  githubimg
 } from "../assets";
 
 export const navLinks = [
@@ -180,43 +181,71 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Secure Payment API",
+    name: "Task Manager API",
     description:
-      "Spring Boot backend with JWT auth, HTTPS, and real-time transaction monitoring. Ensured PCI compliance. Deployed on AWS with 99.9% uptime.",
+      "A RESTful API built with Spring Boot and MongoDB to manage tasks. Includes JWT-based authentication, role-based access control, and Docker support for containerized deployment.",
     tags: [
-      {
-        name: "springboot",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "jwt",
-        color: "green-text-gradient",
-      },
-      {
-        name: "aws",
-        color: "pink-text-gradient",
-      },
+      { name: "springboot", color: "blue-text-gradient" },
+      { name: "mongodb", color: "green-text-gradient" },
+      { name: "docker", color: "pink-text-gradient" },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/cybertron1408", // Update if needed
+    image: githubimg, // Replace with actual image
+    source_code_link: "https://github.com/cybertron1408/api-taskmanager",
   },
   {
-    name: "Financial Data Validator",
+    name: "Voting Poll App",
     description:
-      "Spring Batch app for validating large financial CSV files, built with PostgreSQL. Features error detection and compliance reporting.",
+      "A full-stack web application for creating and voting on polls. Built with Java 17+, Spring Boot, JPA, Thymeleaf, and Bootstrap 5. Implements user authentication, voting logic, and poll management.",
     tags: [
-      {
-        name: "springbatch",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "postgresql",
-        color: "green-text-gradient",
-      },
+      { name: "springboot", color: "blue-text-gradient" },
+      { name: "thymeleaf", color: "green-text-gradient" },
+      { name: "jpa", color: "pink-text-gradient" },
+      { name: "bootstrap", color: "orange-text-gradient" },
+      { name: "java17", color: "blue-text-gradient" },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/cybertron1408", // Update if needed
+    image: githubimg,
+    source_code_link: "https://github.com/cybertron1408/VotingPollApp",
+  },
+  {
+    name: "Personal Portfolio",
+    description:
+      "A modern, responsive personal portfolio built with React.js and Tailwind CSS. Showcases projects, technical skills, GitHub contributions, and includes smooth scroll and animation effects.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "tailwindcss", color: "green-text-gradient" },
+      { name: "vite", color: "pink-text-gradient" },
+    ],
+    image: githubimg,
+    source_code_link: "https://github.com/cybertron1408/Portfolio",
+  },
+  {
+    name: "Real-Time Chat App",
+    description:
+      "A real-time chat application using Spring Boot, WebSocket (STOMP over SockJS), and Bootstrap. Features include dark mode, auto-scroll, avatar initials, and responsive chat UI.",
+    tags: [
+      { name: "springboot", color: "blue-text-gradient" },
+      { name: "websocket", color: "green-text-gradient" },
+      { name: "bootstrap", color: "pink-text-gradient" },
+      { name: "sockjs", color: "blue-text-gradient" },
+    ],
+    image: githubimg,
+    source_code_link: "https://github.com/cybertron1408/RealTimeChatApplication",
+  },
+  {
+    name: "To-Do App",
+    description:
+      "A full-stack to-do list app built with Java 17+, Spring Boot, Thymeleaf, Bootstrap 5, and Docker. Deployed on Render with support for adding, updating, and deleting tasks.",
+    tags: [
+      { name: "springboot", color: "blue-text-gradient" },
+      { name: "thymeleaf", color: "green-text-gradient" },
+      { name: "bootstrap5", color: "pink-text-gradient" },
+      { name: "docker", color: "orange-text-gradient" },
+      { name: "render", color: "blue-text-gradient" },
+    ],
+    image: githubimg,
+    source_code_link: "https://github.com/cybertron1408/TodoApp",
   },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };
